@@ -1,5 +1,5 @@
 #!/bin/sh
-set -ex
+set -e
 
 [ -d /hostproc ]
 [ -S /var/run/docker.sock ]

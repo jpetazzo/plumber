@@ -1,3 +1,3 @@
 FROM ubuntu
 ADD run.sh /
-CMD bash
+ENTRYPOINT [ "/run.sh" ]
